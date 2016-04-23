@@ -6,7 +6,7 @@ import {
   browserHistory
 } from 'react-router'
 
-import NotFound from './views/404'
+import NotFound from '../views/404'
 
 module.exports = () => {
   return <Router history={browserHistory}>
