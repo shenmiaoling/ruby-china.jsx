@@ -50,6 +50,6 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: ['', '.js', '.css', '.json', '.sass', '.cjsx', '.coffee']
+    extensions: ['', '.js', '.jsx', '.css', '.sass', '.json']
   }
 }
