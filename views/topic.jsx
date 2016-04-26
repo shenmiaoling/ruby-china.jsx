@@ -10,4 +10,4 @@ const Topic=React.createClass({
     return (<div>{this.state.user}</div>)
   }
 })
-
+export default Topic

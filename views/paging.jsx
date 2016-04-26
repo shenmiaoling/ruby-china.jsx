@@ -1,6 +1,6 @@
 import React from 'react'
 import { Router, Route, Link, browserHistory } from 'react-router'
-require ('../styles/paging')
+require ('../../styles/paging')
 const Paging=React.createClass({
   getInitialState(){
     return {
@@ -34,7 +34,7 @@ const Paging=React.createClass({
           <div>{topics.map((item, index) => {
             return(
               <div key={index}>
-                <h5><Link to={`/topic/${item.id}` }>{item.title}</Link></h5>
+                <h6><Link to={`/topic/${item.id}` }>{item.title}</Link></h6>
                 <img src={item.user.avatar_url} className='headportrait'/>
               </div>
               )
@@ -49,7 +49,7 @@ const Paging=React.createClass({
         </div>
         )
     }
-    return(<div><h1>请稍等......</h1></div>)
+    return(<div><h2>请稍等......</h2></div>)
   }
 })
 export default Paging;
