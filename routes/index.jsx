@@ -5,7 +5,7 @@ import {
   IndexRoute,
   browserHistory
 } from 'react-router'
-import Login from '../views/log_in'
+import Login from '../views/Login'
 import NotFound from '../views/404'
 import Application from '../views/app'
 module.exports = () => {
